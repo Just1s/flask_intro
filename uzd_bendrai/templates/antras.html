@@ -4,7 +4,8 @@
   <title>Mano puslapis</title>
 </head>
 <body>
-  <h1>Sveiki, {{vardas}}</h1>
-  <p>Mano puslapis!</p>
+{%for _ in range(5)%}
+<p>{{vardas}}</p>
+{% endfor %}
 </body>
 </html>
